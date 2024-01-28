@@ -90,7 +90,7 @@ movies_filter = []
 
 @app.get('/', tags=['home'])           # definimos el endpoint, dentro de los () definimos la reuta de incio
 def message():
-    return HTMLResponse('<h1>Hello word</h1>')
+    return HTMLResponse('<h1>Hello word!!!!</h1>')
 
 @app.post('/login', tags=['auth'])
 def login(user: User):
