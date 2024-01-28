@@ -14,6 +14,7 @@ from fastapi import Request
 from fastapi import HTTPException
 from fastapi import Depends
 
+
 #---------------------------------------------------------------------------------------
 # UVICONR
 # para iniciar la aplicacion utilizamos "uvicorn" con el comando:
